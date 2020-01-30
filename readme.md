@@ -1,0 +1,1 @@
+Basic project with react apollo and graphql
