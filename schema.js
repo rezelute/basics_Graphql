@@ -4,6 +4,6 @@ const GraphqlObjectType = require("graphql");
 const launchType = new GraphqlObjectType({
   name: "Launch",
   fields: () => ({
-    
+    console.log('hello')
   })
 })
