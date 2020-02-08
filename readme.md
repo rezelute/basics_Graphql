@@ -1,1 +1,1 @@
-Basic project with react apollo and graphql
+Basic project with graphql
