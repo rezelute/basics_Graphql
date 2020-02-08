@@ -3,6 +3,7 @@ const expressGraphQl = require("express-graphql");
 const schema = require("./schema");
 // const graphql = require('graphql');
 const app = express();
+const cors = require("cors");
 
 
 app.use(
@@ -12,6 +13,8 @@ app.use(
     graphiql: true
   }),
 );
+
+app.use(cors());
 
 const PORT = process.env.PORT || 5000;
 
