@@ -7,8 +7,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "json:server": "json-server --watch data.json",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run json:server\""
   },
   "author": "Hamzah Husseini",
   "license": "ISC",
