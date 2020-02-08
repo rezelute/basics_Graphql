@@ -1,16 +1,15 @@
 const express = require("express");
 const expressGraphQl = require("express-graphql");
 const schema = require("./schema");
-
+// const graphql = require('graphql');
 const app = express();
-
 
 
 app.use(
   '/graphql',
   expressGraphQl({
     schema: schema ,
-    graphiql: true,
+    graphiql: true
   }),
 );
 
